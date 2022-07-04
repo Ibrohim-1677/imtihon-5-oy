@@ -14,7 +14,7 @@ export const Header = () =>{
         <div className="header-box">
             <div className="res-flex">
         <a href="/private"><img className="site-logo" src={siteLogo} alt="site logo" /></a>
-          <button class="hamburger" type="button">&#9776;</button>
+          <button className="hamburger" type="button">&#9776;</button>
         </div>
         <ul className="header-naw">
             <li className="header-item"><Link to="/private" className="header-links" href="#">All</Link></li>
