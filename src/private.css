@@ -1,0 +1,40 @@
+.main-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1170px){
+    .main-box{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .main-box{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 771px){
+    .main-box{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .main-box{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .main-box{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .main-box{
+        flex-direction: column;
+    }
+}

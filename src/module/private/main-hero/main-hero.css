@@ -1,0 +1,142 @@
+.main-hero{
+    width: 30%;
+    margin-top: 80px;
+}
+.main-hero-box{
+    width: 318px;
+}
+.main-hero-link{
+    background: #F4F4F4;
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+.main-hero-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #474747;
+}
+.main-hero-text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474747;
+}
+.main-hero-span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #474747;
+    margin-right: 16px;
+}
+.main-logo-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-hero-item:nth-child(2){
+    margin: 25px;
+}
+.main-hero-item:nth-child(3){
+    margin-right: 26px;
+}
+@media only screen and (max-width: 1024px){
+    .main-hero-text{
+        width: 600px;
+        display: inline-block;
+        margin-left: -130px;
+    }
+    .main-logo-list{
+        margin-left: 85px;
+    }
+}
+@media only screen and (max-width: 768px){
+    
+    .main-hero-text{
+         max-width: 100%;
+        margin-left: -130px;
+    }
+    .main-hero-title{
+        margin-left: 0;
+    }
+    .main-logo-list{
+        margin-left: -125px;
+    }
+    .main-hero{
+        margin-left: 120px;
+    }
+    .main-hero-link,.main-hero-span{
+        display: none;
+    }
+    .main-hero-box{
+    margin-right: 30px;
+     max-width: 318px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+.main-hero-text{
+    max-width: 100%;
+    display: inline-block;
+    margin-left: -130px;
+}
+.main-hero-text{
+    width: 300px;
+    margin-left: 0;
+}
+.main-hero-text{
+   display: inline-block;
+}
+.main-logo-list{
+   margin-left: 85px;
+}
+.main-hero{
+   margin-left: 0;
+   margin-right: 0;
+   text-align: left;
+}
+}
+@media only screen and (max-width: 375px){
+    .main-hero-text{
+        width: 350px;
+        margin-left: 0;
+    }
+    .main-hero-text{
+        width: 300px;
+        margin-left: 0;
+    }
+    .main-hero-text{
+       display: inline-block;
+   }
+   .main-logo-list{
+       margin-left: 85px;
+   }
+   .main-hero{
+       margin-left: 0;
+       margin-right: 0;
+       text-align: left;
+   }
+}
+@media only screen and (max-width: 320px){
+    .main-hero-text{
+        width: 300px;
+        margin-left: 0;
+    }
+    .main-hero-text{
+        width: 300px;
+        margin-left: 0;
+    }
+    .main-hero-text{
+       display: inline-block;
+   }
+   .main-logo-list{
+       margin-left: 85px;
+   }
+   .main-hero{
+       margin-left: 0;
+       margin-right: 0;
+       text-align: left;
+   }
+}
